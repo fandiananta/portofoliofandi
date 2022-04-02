@@ -1,0 +1,291 @@
+* {
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Vidaloka', serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#hamburger {
+    color: #158E42;
+}
+
+.darkmode .jumbotron {
+    transition: .5s;
+    background-color: rgb(240, 240, 240);
+}
+
+.darkmode .name {
+    transition: .5s;
+    color: #1C1514;
+}
+
+.darkmode .hello {
+    transition: .5s;
+    color: #1C1514;
+}
+
+.darkmode .skills {
+    transition: .5s;
+    color: #1C1514;
+}
+
+.darkmode i {
+    transition: .5s;
+    color: #1C1514;
+}
+
+.darkmode #email {
+    transition: .5s;
+    color: white !important;
+}
+
+.darkmode .navbar {
+    transition: .5s;
+    background-color: rgb(240, 240, 240);
+}
+
+.darkmode .navbar .nav-link {
+    transition: .5s;
+    color: #1C1514;
+}
+
+.darkmode .tentang-saya {
+    transition: .5s;
+    background-color: rgb(243, 242, 242);
+}
+
+.darkmode .tentang-saya h2 {
+    transition: .5s;
+    color: #1C1514;
+}
+
+.darkmode .tentang-saya p {
+    transition: .5s;
+    color: #1C1514;
+}
+
+.darkmode .tentang-saya hr {
+    transition: .5s;
+    background-color: #1C1514;
+}
+
+.darkmode .unduh {
+    transition: .5s;
+    color: #1C1514;
+}
+
+.darkmode .portofolio {
+    background-color: rgb(243, 242, 242);
+}
+
+.darkmode .portofolio h2 {
+    color: #1C1514;
+}
+
+.darkmode .portofolio .btn i {
+    color: white;
+}
+
+.darkmode .portofolio hr {
+    transition: .5s;
+    background-color: #1C1514;
+}
+
+.navbar {
+    background-color: #1C1514;
+    color: white;
+    padding: 40px 0;
+    z-index: 9999;
+}
+
+.navbar .nav-link {
+    color: white;
+}
+
+.navbar .nav-item {
+    margin-left: 40px;
+}
+
+.circle-img {
+    position: absolute;
+    left: 0;
+    bottom: 120px;
+}
+
+.jumbotron {
+    margin-top: -10px;
+    padding-bottom: 100px;
+    background-color: #1C1514;
+}
+
+.jumbotron .hello {
+    font-weight: 300;
+}
+
+.jumbotron .name {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.jumbotron h1 {
+    font-size: 50px;
+    color: white;
+}
+
+.jumbotron p {
+    color: white;
+}
+
+.jumbotron img {
+    width: 60%;
+}
+
+.jumbotron a {
+    text-decoration: none;
+    color: white;
+}
+
+.tombol {
+    display: flex;
+    align-items: center;
+}
+
+#btn-emailsaya {
+    background-color: #158E42;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-left: -15px;
+    position: relative;
+}
+
+#btn-emailsaya:hover {
+    color: white;
+}
+
+#sosmed {
+    margin-left: 30px;
+}
+
+#sosmed i {
+    font-size: 25px;
+}
+
+
+/* checkbox dark mode */
+
+input[type="checkbox"] {
+    display: none;
+}
+
+label {
+    border: 2px solid gray;
+    border-radius: 30px;
+    padding: 1px;
+    cursor: pointer;
+}
+
+.fa-sun {
+    color: #158E42;
+    font-size: 25px;
+    text-shadow: 0px 0px 20px #158E42;
+    transform: translateX(25px);
+    transition: .3s;
+}
+
+.fa-moon {
+    color: white;
+    font-size: 25px;
+    text-shadow: 0px 0px 20px white;
+    transform: translateX(0px);
+    opacity: 0;
+    transition: .3s;
+}
+
+#switch-button:checked~label>.fa-sun {
+    opacity: 0;
+    transform: translateX(0px);
+}
+
+#switch-button:checked~label>.fa-moon {
+    opacity: 1;
+    transform: translateX(-25px);
+}
+
+#switch-button:checked~.content {
+    background: black;
+    color: white;
+}
+
+
+/* tentang saya */
+
+.tentang-saya {
+    overflow-x: hidden;
+    margin-top: -40px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: #201a19;
+}
+
+.tentang-saya h2 {
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.tentang-saya hr {
+    width: 10px;
+    height: 10px;
+    background-color: #158E42;
+    border-radius: 100px;
+}
+
+.tentang-saya p {
+    text-justify: inherit;
+    margin-top: 30px;
+    font-weight: 400;
+    color: white;
+}
+
+.portofolio {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    overflow-x: hidden;
+    margin-top: -40px;
+    padding-top: 100px;
+    color: white;
+    padding-bottom: 100px;
+    background-color: #1C1514;
+}
+
+.portofolio h2 {
+    text-align: center;
+}
+
+.portofolio hr {
+    width: 10px;
+    height: 10px;
+    background-color: #158E42;
+    border-radius: 100px;
+}
+
+.portofolio img {
+    width: 100%;
+}
+
+.portofolio .card {
+    margin-top: 30px;
+    border: none;
+}
+
+#lihatPortfolio {
+    padding: 10px 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #158E42;
+}
+
+.tentang-saya .card {
+    margin-top: 30px;
+    border: none;
+}
