@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&family=Vidaloka&family=Work+Sans:wght@200;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- aniamte -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- fontawesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Cv Fandi</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i
+            class="fa-solid fa-bars"
+            style="font-size: 35px"
+            id="hamburger"
+          ></i>
+        </button>
+        <div
+          class="collapse navbar-collapse animate__animated animate__zoomIn"
+          id="navbarText"
+        >
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">HOME </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">TENTANG SAYA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PORTOFOLIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SERTIFIKAT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">KONTAK</a>
+            </li>
+          </ul>
+
+          <center>
+            <input
+              type="checkbox"
+              id="switch-button"
+              onclick="setDarkMode()"
+              class="animate__animated animate__zoomIn"
+            />
+            <label for="switch-button">
+              <i class="fas fa-sun"></i>
+              <i class="fas fa-moon"></i>
+            </label>
+          </center>
+        </div>
+      </div>
+    </nav>
+
+    <!-- jumbotron  -->
+    <div class="jumbotron">
+      <div class="container">
+        <img
+          src="gambar/circle.png"
+          alt=""
+          class="circle-img"
+          style="width: 23%"
+        />
+        <div class="row">
+          <div
+            class="col-lg-6 col-md-6 col-sm-6 animate__animated animate__zoomIn"
+          >
+            <h1 class="hello">Hallo,</h1>
+            <h1 class="name" id="typing">Saya Fandi Ananta</h1>
+            <div id="line"></div>
+            <p class="skills">Front End Developer || Web Desaigner</p>
+
+            <div class="tombol">
+              <!-- <a href="" class="btn" id="btn-emailsaya"
+                >Email Saya
+                <i
+                  style="font-size: 20px; margin-left: 5px; margin-top: 2px"
+                  class="fa fa-envelope"
+                  aria-hidden="true"
+                  id="email"
+                ></i>
+              </a> -->
+
+              <a href="https://wa.me/+6289516756975" id="sosmed">
+                <i class="fa-brands fa-whatsapp"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/fandi_ananta07/?img_index=1"
+                id="sosmed"
+              >
+                <i class="fa-brands fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.youtube.com/channel/UCz8nBmOksubNL04dNp7JJTg"
+                id="sosmed"
+              >
+                <i class="fa-brands fa-youtube"></i
+              ></a>
+            </div>
+            <br />
+            <!-- <a class="unduh" href=""
+              >Unduh Cv Saya <i class="fa-solid fa-download"></i
+            ></a> -->
+          </div>
+          <div
+            class="col-lg-6 col-md-6 col-sm-6 animate__animated animate__zoomIn"
+          >
+            <center>
+              <img src="gambar/Group 4.png" class="profile" alt="" />
+            </center>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="tentang-saya">
+      <div class="container">
+        <h2 data-aos="fade-right">Tentang Saya</h2>
+        <hr data-aos="fade-right" />
+        <p data-aos="fade-left">
+          Saya Fandi Ananta lahir di Pontianak pada tanggal 7 Maret 2001. Saya
+          lulusan Politeknik Negeri Pontianak Diploma 3 (D3) Teknik Informatika.
+          Saya menyukai hal-hal baru untuk menambah wawasan dan pengetahuan
+          saya. Cek Detail Saya Di Bawah.
+        </p>
+      </div>
+    </section>
+
+    <section class="portofolio">
+      <div class="container">
+        <h2 data-aos="fade-right">Portofolio</h2>
+        <hr data-aos="fade-right" />
+        <br />
+        <div class="row">
+          <br />
+          <div class="col-lg-6 col-sm-6 col-md-6">
+            <div class="card">
+              <img src="gambar/iMac - 1.png" alt="" />
+              <br />
+            </div>
+            <br />
+          </div>
+
+          <div class="col-lg-6 col-sm-6 col-md-6">
+            <div class="card">
+              <img src="gambar/bb.png" alt="" />
+            </div>
+            <br />
+          </div>
+
+          <div class="col-lg-6 col-sm-6 col-md-6">
+            <div class="card">
+              <img src="gambar/Group 18.png" alt="" />
+            </div>
+            <br />
+          </div>
+
+          <div class="col-lg-6 col-sm-6 col-md-6">
+            <div class="card">
+              <img src="gambar/dua.jpg" alt="" />
+            </div>
+            <br />
+          </div>
+
+          <div class="col-lg-6 col-sm-6 col-md-6">
+            <div class="card">
+              <img src="gambar/tiga.jpg" alt="" />
+            </div>
+            <br />
+          </div>
+
+          <div class="col-lg-6 col-sm-6 col-md-6">
+            <div class="card">
+              <img src="gambar/empat.jpg" alt="" />
+            </div>
+            <br />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="tentang-saya">
+      <div class="container">
+        <h2 data-aos="fade-right">Seltifikat</h2>
+        <hr data-aos="fade-right" />
+        <div class="row">
+          <div class="col-lg-6 col-sm-6 col-md-6">
+            <div class="card">
+              <img src="gambar/pintaar.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-6 col-md-6">
+            <div class="card">
+              <img src="gambar/buidangga.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-6 col-md-6">
+            <div class="card">
+              <img src="gambar/dicoding.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+      if (localStorage.getItem("theme") == "dark") {
+        setDarkMode();
+
+        if (document.getElementById("switch-button").checked) {
+          localStorage.setItem("switch-button", true);
+        }
+      }
+
+      function setDarkMode() {
+        let isDark = document.body.classList.toggle("darkmode");
+
+        if (isDark) {
+          setDarkMode.checked = true;
+          localStorage.setItem("theme", "dark");
+          document
+            .getElementById("switch-button")
+            .setAttribute("checked", "checked");
+        } else {
+          setDarkMode.checked = true;
+          localStorage.removeItem("theme", "dark");
+        }
+      }
+    </script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
